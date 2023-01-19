@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Place Order</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="fa/font-awesome.css">
+    <link rel="shortcut icon" href="images/Logo2.png" type="image/x-icon">
+      <style type="text/css">
+        body{
+          background-color: rgb(230, 182, 63);
+        }
+        .logo{
+          text-align: center;
+          margin-top: -12px;
+          border-radius: 0px !important;
+          background-color: rgb(230, 182, 63);
+        }
+        .banner-other {
+          margin-top: 3px;
+        }
+        .order{
+          margin-left:70% ;
+        }
+      </style>
+</head>
+
+<body>
+    <div class="logo">
+       <a href="index.html"><img src="images/logo.png" width="20%"></a>
+    </div>
+
+   <section class="banner-other">
+        <img src="images/ord.jpg" alt="">
+        <div class="page-title">
+          <h1>Place Order</h1>
+          <p>Service >Place Order</p>
+        </div>
+    </section>
+
+  <div class="mt-5"> 
+    <main class="container">
+      <h2 style="text-align: center;">Place Order</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form action="">
+              <!--Name Field-->
+              <form></form>
+              <div class="input-group mb-3">
+                <span class="input-group-text">
+                  <i class="fa fa-user"></i>&nbsp;Name
+                </span>
+                <input type="text" name="fname" class="form-control" placeholder="Full Name" required>
+              </div>
+              <!--Phone Field-->
+              <div class="input-group mb-3">
+                <span class="input-group-text">
+                  <i class="fa fa-phone"></i>&nbsp;Phone
+                </span>
+                <input type="tel" name="phone" class="form-control" placeholder="Phone Number">
+              </div>
+              <!--Email Field-->
+              <div class="input-group mb-3">
+                <span class="input-group-text">
+                  <i class="fa fa-envelope"></i>&nbsp;Email
+                </span>
+                <input type="email" name="email" class="form-control" placeholder="Email Address">
+              </div>
+
+              <!--Address-->
+              <div class="input-group mb-3">
+                <span class="input-group-text">
+                  <i class="fa fa-home"></i>&nbsp;Location
+                </span>
+                <input name="Location" class="form-control" placeholder="Your Location">
+              </div>
+
+              <!--Trip Type Field-->
+              <div class="input-group mb-3">
+                <span class="input-group-text">
+                  <i class="fa fa-list"></i>&nbsp;Food Type 
+                </span>
+                <select class="form-control" name="type">
+                  <option value="Centre-Based Holidays">Chicken</option>
+                  <option value="Private Departures">African Dishes</option>
+                  <option value="Private Group Holidays">Chinese Dishes</option>
+                  <option value="Self-Guided Holidays">Italian Dishes</option>
+                  <option value="Small Group Trips">Desserts</option>
+                  <option value="Tailormade Holidays">Drinks</option>
+                </select>
+              </div>
+
+              <!--Description-->
+              <div class="input-group mb-3">
+                <span class="input-group-text">
+                  <i class="fa fa-home"></i>&nbsp;Description
+                </span>
+                <textarea name="Description" class="form-control" placeholder="Describe the way you want the food here..."></textarea>
+              </div>
+      
+
+              <div class="more">
+                    <a href="received.html" class="View_more2" style="text-decoration: none;">
+                      <i class="fa fa-"></i>
+                      Place Order
+                    </a> 
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="order">
+           <marquee behaviour="alternate" scrollamount="7" ><b>...We'll call you when your order has been placed....</b></marquee>
+        </div>
+    </main>
+   </div>
+
+    <footer>
+        <h6 class="container">
+            Copyright © Timmily d'cook 2021. All Rights Reserved.
+        </h6>
+    </footer>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/propper.js"></script>
+</body>
+</html>
